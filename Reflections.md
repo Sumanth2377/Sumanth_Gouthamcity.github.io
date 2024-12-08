@@ -1,13 +1,13 @@
 Course Learning Reflections
 
-➡Q:What are the kinds of problems we see in the nature? (iteration, recursion, backtracking)
+➡:What are the kinds of problems we see in the nature? (iteration, recursion, backtracking)
 
-➡A:Iteration:
+A:Iteration:
 Problems we see in the nature are
 1-Ants repeatedly explore paths, leaving their trails that make to find efficient route (Optimization from Algorithms Portfolio).
 2-Seasons change as weather alternates between heating and cooling, reflecting nature's iterative process. 
 
-Backtracking:
+B:Backtracking:
 
 It involves exploring solutions by trying paths and Leaving the hard(difficult/unuse) ones
 Many animals use backtracking for Searching for food and finding the optimal route to reach their house quick by escaping predators
