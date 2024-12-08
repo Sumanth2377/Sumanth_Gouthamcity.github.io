@@ -1,3 +1,4 @@
+
 1. Recycling and Waste Management Services
 Goutham emphasizes organized waste management and sustainability. Establish a recycling plant or offer services like e-waste disposal and compost production from organic waste. Smart Waste Management and Recycling Services
 
@@ -13,4 +14,5 @@ Creating eco-tours, workshops on local crafts, or heritage walks that showcase t
 
 4. Local Crafts and E-commerce
 Sell handmade crafts or local produce via an online marketplace. Supporting local culture is part of the city’s vision, and e-commerce platforms can reach global markets.
+
 
