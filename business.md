@@ -60,6 +60,9 @@
         <p><strong>Time Complexity:</strong> O(E log V)</p>
         <p><strong>Space Complexity:</strong> O(V)</p>
         <p><strong>Use Case:</strong> Finding closest collection routes</p>
+
+        ![image](https://github.com/user-attachments/assets/ecc81363-a004-45c2-881f-2f62f9c189f1)
+
         
         <h4>Pros:</h4>
         <ul>
@@ -74,6 +77,8 @@
             <li>High Computational Demand: In dense urban networks, it may require significant computational resources, such as when there is more waste to be collected in a specific area and the need to load twice.</li>
             <li>Not Well-Suited for Real-Time Dynamic Updates: Challenges with handling sudden roadblocks or traffic changes.</li>
         </ul>
+
+        ###[Code](Dijkstra's.md)
 
         <p><strong>Source:</strong> <a href="https://www.upperinc.com/glossary/route-optimization/dijkstras-algorithm/#:~:text=Dijkstra%27s%20algorithm%20is%20widely%20used,between%20devices%20in%20a%20network">Dijkstra's Algorithm - Route Optimization</a></p>
 
@@ -95,6 +100,8 @@
             <li>Not Stable: The algorithm does not maintain the order of identical items, which might be critical in specific segregation workflows.</li>
             <li>Preprocessing Needed: May require manual intervention to define sorting criteria for waste types.</li>
         </ul>
+
+        ###[Code](Quicksort.md)
 
         <p><strong>Source:</strong> <a href="https://builtin.com/articles/quicksort#:~:text=Let%27s%20cover%20a%20few%20key,situations%20when%20space%20is%20limited">QuickSort - Efficient Waste Segregation</a></p>
 
