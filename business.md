@@ -105,6 +105,7 @@
         </ul>
 
         <a href="Quicksort.md">Code for QuickSort</a>
+        [Code for QuickSort](https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quicksort.md)
 
         <p><strong>Source:</strong> <a href="https://builtin.com/articles/quicksort#:~:text=Let%27s%20cover%20a%20few%20key,situations%20when%20space%20is%20limited">QuickSort - Efficient Waste Segregation</a></p>
 
