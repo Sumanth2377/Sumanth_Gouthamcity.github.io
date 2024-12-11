@@ -61,8 +61,7 @@
         <p><strong>Space Complexity:</strong> O(V)</p>
         <p><strong>Use Case:</strong> Finding closest collection routes</p>
 
-        <img src="https://raw.githubusercontent.com/user/repo/branch/path_to_your_image.jpg" alt="Description of image">
-        ![image](https://github.com/user-attachments/assets/4fe657e2-6801-42d5-9674-3fdffc1aa470)
+        <img src="https://github.com/user-attachments/assets/4fe657e2-6801-42d5-9674-3fdffc1aa470" alt="Your image description" width="500">
 
         <h4>Pros:</h4>
         <ul>
@@ -79,7 +78,6 @@
         </ul>
 
        <a href="Dijkstra%27s.cpp">Code for Dijkstra's Algorithm</a>
-       [Code for Dijkstra's Algorithm](https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Dijkstra's.cpp)
 
        
 
@@ -105,7 +103,6 @@
         </ul>
 
         <a href="Quicksort.md">Code for QuickSort</a>
-        [Code for QuickSort](https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quicksort.md)
 
         <p><strong>Source:</strong> <a href="https://builtin.com/articles/quicksort#:~:text=Let%27s%20cover%20a%20few%20key,situations%20when%20space%20is%20limited">QuickSort - Efficient Waste Segregation</a></p>
 
