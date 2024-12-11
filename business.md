@@ -69,7 +69,7 @@
         </div>
         <div class="initiative">
             <h2>Tourism and Cultural Experiences</h2>
-            <p>Sell handmade crafts or local produce via an online marketplace. Supporting local culture is part of the city's vision, and e-commerce platforms can reach global markets.</p>
+            <p>Creating eco-tours, workshops on local crafts, or heritage walks that showcase the region’s culture and sustainability efforts. A tourism tax is in place, suggesting government interest in boosting the sector..</p>
             
             <div class="sdg-info">
                 <h3>Relevant SDG:</h3>
