@@ -113,7 +113,19 @@
             <p><strong>SDG 12.5:</strong> "By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse." This directly aligns with recycling services and focuses on waste reduction and management.</p>
         </div>
 
+
+         <div class="container">
+        <div class="initiative">
+            <h2>Smart Parking Solutions</h2>
+            <p>Developing an IoT-enabled parking management system to address urban parking challenges. Installing smart parking sensors to detect vacant spots and offering a mobile app for real-time parking availability and booking. Monetize through subscription fees and pay-per-use charges. Impact: Reduces traffic congestion and optimizes parking spaces, making city travel smoother.</p>
+            
+            <div class="sdg-info">
+                <h3>Relevant SDG:</h3>
+                <p><strong>SDG 11.3:</strong> "By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries." Makes parking more accessible, improves urban mobility, and reduces traffic congestion.</p>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
-
-##[More Bussiness Use Cases](othersbussiness)
