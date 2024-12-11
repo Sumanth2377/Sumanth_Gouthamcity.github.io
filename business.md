@@ -61,8 +61,7 @@
         <p><strong>Space Complexity:</strong> O(V)</p>
         <p><strong>Use Case:</strong> Finding closest collection routes</p>
 
- ![image](https://github.com/user-attachments/assets/ecc81363-a004-45c2-881f-2f62f9c189f1)
-
+        <img src="https://raw.githubusercontent.com/user/repo/branch/path_to_your_image.jpg" alt="Description of image">
         
         <h4>Pros:</h4>
         <ul>
@@ -78,7 +77,9 @@
             <li>Not Well-Suited for Real-Time Dynamic Updates: Challenges with handling sudden roadblocks or traffic changes.</li>
         </ul>
 
-###[Code](Dijkstra's.md)
+       <a href="Dijkstra%27s.md">Code for Dijkstra's Algorithm</a>
+
+
 
         <p><strong>Source:</strong> <a href="https://www.upperinc.com/glossary/route-optimization/dijkstras-algorithm/#:~:text=Dijkstra%27s%20algorithm%20is%20widely%20used,between%20devices%20in%20a%20network">Dijkstra's Algorithm - Route Optimization</a></p>
 
@@ -101,7 +102,7 @@
             <li>Preprocessing Needed: May require manual intervention to define sorting criteria for waste types.</li>
         </ul>
 
- ###[Code](Quicksort.md)
+        <a href="Quicksort.md">Code for QuickSort</a>
 
         <p><strong>Source:</strong> <a href="https://builtin.com/articles/quicksort#:~:text=Let%27s%20cover%20a%20few%20key,situations%20when%20space%20is%20limited">QuickSort - Efficient Waste Segregation</a></p>
 
