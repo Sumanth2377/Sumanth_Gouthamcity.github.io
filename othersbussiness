@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 30px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .initiative h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .sdg-info {
+            background-color: #f9f9f9;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        .sdg-info h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        .sdg-info p strong {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="initiative">
+            <h2>Smart Parking Solutions</h2>
+            <p>Developing an IoT-enabled parking management system to address urban parking challenges. Installing smart parking sensors to detect vacant spots and offering a mobile app for real-time parking availability and booking. Monetize through subscription fees and pay-per-use charges. Impact: Reduces traffic congestion and optimizes parking spaces, making city travel smoother.</p>
+            
+            <div class="sdg-info">
+                <h3>Relevant SDG:</h3>
+                <p><strong>SDG 11.3:</strong> "By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries." Makes parking more accessible, improves urban mobility, and reduces traffic congestion.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
