@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -78,7 +77,12 @@
             <li>Not Well-Suited for Real-Time Dynamic Updates: Challenges with handling sudden roadblocks or traffic changes.</li>
         </ul>
 
-        <a href="[Dijkstra's.md](https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Dijkstra's.md?plain=1)">Dijkstra's Algorithm - Route Optimization</a></p>
+       <a href="Dijkstra%27s.md">Code for Dijkstra's Algorithm</a>
+       
+
+
+
+        <p><strong>Source:</strong> <a href="https://www.upperinc.com/glossary/route-optimization/dijkstras-algorithm/#:~:text=Dijkstra%27s%20algorithm%20is%20widely%20used,between%20devices%20in%20a%20network">Dijkstra's Algorithm - Route Optimization</a></p>
 
         <h3>Waste Segregation: QuickSort</h3>
         <p><strong>QuickSort</strong> is effective for sorting waste items by weight.</p>
