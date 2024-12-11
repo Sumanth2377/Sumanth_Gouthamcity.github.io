@@ -102,7 +102,7 @@
             <li>Preprocessing Needed: May require manual intervention to define sorting criteria for waste types.</li>
         </ul>
 
-        <a href="Quicksort.md">Code for QuickSort</a>
+        <a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quicksort.md" target="_blank">Code for Quicksort Algorithm</a>
 
         <p><strong>Source:</strong> <a href="https://builtin.com/articles/quicksort#:~:text=Let%27s%20cover%20a%20few%20key,situations%20when%20space%20is%20limited">QuickSort - Efficient Waste Segregation</a></p>
 
