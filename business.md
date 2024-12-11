@@ -132,15 +132,6 @@
     </ul>
 
     <p><strong>Source:</strong> <a href="https://builtin.com/articles/quicksort#:~:text=Let%27s%20cover%20a%20few%20key,situations%20when%20space%20is%20limited">QuickSort - Efficient Waste Segregation</a></p>
-
-    <div class="sdg-info">
-        <h3>Relevant SDGs:</h3>
-        <p><strong>SDG 11.6:</strong> "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management."</p>
-        <p>Directly addresses waste management. Includes specific indicators for solid waste collection and management. Focuses on urban environmental impact.</p>
-        <p><strong>SDG 12.5:</strong> "By 2030, substantially reduce waste generation through prevention, reduction, recycling, and reuse."</p>
-        <p>Directly aligns with recycling services. Focuses on waste reduction and management.</p>
-    </div>
-      
             <div class="sdg-info">
                 <h3>Relevant SDGs:</h3>
                 <p><strong>SDG 11.6:</strong>"By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management". This directly addresses waste management, Has specific indicators for solid waste collection and management. Focuses on urban environmental impact</p>
