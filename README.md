@@ -4,8 +4,6 @@ Design Analysis of Algorithms focuses on studying algorithms through natural and
 
 Assignments link theory to real-world applications, exploring data structure choices for tasks like submission throttling with tries, building recommendation engines, and optimizing user-defined heap memory. By fostering intuition and a structured approach, the course equips engineers to design efficient algorithms and enhance existing ones for real-world impact.
 
-Project :- 
-
 <hr>
 
 ## [Course Learning Reflections](Reflections.md)
