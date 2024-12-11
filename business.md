@@ -77,11 +77,8 @@
             <li>Not Well-Suited for Real-Time Dynamic Updates: Challenges with handling sudden roadblocks or traffic changes.</li>
         </ul>
 
-      <a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Dijkstra's.cpp" target="_blank">Code for Quicksort Algorithm</a>
+      <a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Dijkstra's.md" target="_blank">Code for Dijkstra's Algorithm</a>
 
-       
-
-       
 
         <p><strong>Source:</strong> <a href="https://www.upperinc.com/glossary/route-optimization/dijkstras-algorithm/#:~:text=Dijkstra%27s%20algorithm%20is%20widely%20used,between%20devices%20in%20a%20network">Dijkstra's Algorithm - Route Optimization</a></p>
 
