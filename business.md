@@ -50,7 +50,50 @@
     <div class="container">
         <div class="initiative">
             <h2>Waste Segregation and Collection</h2>
-            <p>Goutham emphasizes waste segregation and collection. There's an opportunity to offer advanced recycling services or solutions for efficient waste disposal. Growing Urban Need: Rapid urbanization increases waste production. A structured recycling and waste management service can address this problem effectively. Government and Citizen Support: we can collaborate with local authorities, receive grants, and charge fees for organized waste collection and recycling. Revenue from Recycled Products: Recycled materials (plastic, paper, metals, compost) can be sold to manufacturers or directly to consumers.</p>
+            <p>Goutham emphasizes waste segregation and collection. There's an opportunity to offer advanced recycling services or solutions for efficient waste disposal. Growing Urban Need: Rapid urbanization increases waste production. A structured recycling and waste management service can address this problem effectively. Government and Citizen Support: we can collaborate with local authorities, receive grants, and charge fees for organized waste collection and recycling. Revenue from Recycled Products: Recycled materials (plastic, paper, metals, compost) can be sold to manufacturers or directly to consumers.
+            
+            
+a) Dijkstra's Algorithm (Route Optimization)
+
+Dijkstra's Algorithm is widely used for finding the shortest path between nodes in a graph. It is particularly effective for optimizing routes, such as in waste collection services, where traveling time can be reduced and fuel consumption can be reduced.
+
+Time Complexity: O(E log V)
+Space Complexity: O(V)
+Use Case: Finding closest collection routes
+
+Pros:
+Efficient Path Calculation: Ensures the shortest path, minimizing fuel costs and travel time, which is crucial for daily waste collection routes.
+Works effectively for large urban areas with a well-structured road network.
+Integration with GPS: Easily integrates with modern navigation systems to provide real-time route optimization.
+
+Cons:
+Limited to Non-Negative Weights: The algorithm does not handle scenarios where road weights (distances or costs) may change dynamically to negative.
+High Computational Demand: In dense urban networks, it may require significant computational resources.(Like there is more waste to be collected in specific area and they need to load twice)
+Not well-suited for real-time dynamic updates, like sudden roadblocks or traffic changes.
+
+Code: 
+
+Source : https://www.upperinc.com/glossary/route-optimization/dijkstras-algorithm/#:~:text=Dijkstra%27s%20algorithm%20is%20widely%20used,between%20devices%20in%20a%20network.
+
+b) QuickSort (Waste Segregation)
+
+Time Complexity: O(n log n) average case
+Space Complexity: O(log n)
+Use Case: Sorting waste items by weight
+
+
+Pros:
+Fast Sorting for Segregation: Efficiently sorts large quantities of waste into categories (e.g., plastics, metals, organics) with average-case time complexity 𝑂(𝑛log𝑛).
+Customizability: Can be adapted to sort based on different attributes, such as weight or recyclability(iron or some weighted materials).
+
+Cons:
+Potential Inefficiency: Worst-case time complexity of 𝑂(𝑛^2) occurs with poorly chosen pivot elements.
+Not Stable: The algorithm does not maintain the order of identical items, which might be critical in specific segregation workflows.
+May require preprocessing or manual intervention to define sorting criteria for waste types.
+
+Code: 
+
+Source : https://builtin.com/articles/quicksort#:~:text=Let%27s%20cover%20a%20few%20key,situations%20when%20space%20is%20limited.</p>
             
             <div class="sdg-info">
                 <h3>Relevant SDGs:</h3>
