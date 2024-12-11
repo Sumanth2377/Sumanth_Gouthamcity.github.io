@@ -9,6 +9,6 @@ Project :-
 <hr>
 
 ## Course learning reflections 
-##### [Sumanth KS](Reflections.md)
+## [Course Learning Reflections](Reflections.md)
 
 ## [Bussiness Use Cases](business.md)
