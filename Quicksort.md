@@ -1,83 +1,61 @@
 #include <iostream>
 #include <vector>
-#include <map>
-#include <limits>
+#include <string>
 
-class RouteOptimizer {
-private:
-    std::map<char, std::map<char, int>> graph;
-    const int INF = std::numeric_limits<int>::max();
+struct WasteItem {
+    int weight;
+    std::string type;
+};
 
+class WasteSegregator {
 public:
-    RouteOptimizer() {
-        // Initialize graph with distances between collection points
-        graph['A']['B'] = 4;  graph['B']['A'] = 4;
-        graph['B']['C'] = 3;  graph['C']['B'] = 3;
-        graph['C']['D'] = 5;  graph['D']['C'] = 5;
-        graph['D']['E'] = 2;  graph['E']['D'] = 2;
-        graph['A']['E'] = 7;  graph['E']['A'] = 7;
+    static void quickSort(std::vector<WasteItem>& items, int low, int high) {
+        if (low < high) {
+            int pi = partition(items, low, high);
+            quickSort(items, low, pi - 1);  // Sort left partition
+            quickSort(items, pi + 1, high); // Sort right partition
+        }
     }
 
-    std::vector<char> findShortestPath(char start) {
-        std::map<char, int> distances;
-        std::map<char, char> previous;
-        std::vector<char> unvisited = {'A', 'B', 'C', 'D', 'E'};
-        
-        // Initialize distances
-        for (char point : unvisited) {
-            distances[point] = INF;
-        }
-        distances[start] = 0;
+private:
+    static int partition(std::vector<WasteItem>& items, int low, int high) {
+        int pivot = items[high].weight;
+        int i = low - 1;
 
-        while (!unvisited.empty()) {
-            // Find minimum distance vertex
-            char current = unvisited[0];
-            int minDist = INF;
-            int minIndex = 0;
-            
-            for (size_t i = 0; i < unvisited.size(); i++) {
-                if (distances[unvisited[i]] < minDist) {
-                    minDist = distances[unvisited[i]];
-                    current = unvisited[i];
-                    minIndex = i;
-                }
-            }
-
-            // Remove current vertex from unvisited
-            unvisited.erase(unvisited.begin() + minIndex);
-
-            // Update distances to neighbors
-            for (const auto& neighbor : graph[current]) {
-                int alt = distances[current] + neighbor.second;
-                if (alt < distances[neighbor.first]) {
-                    distances[neighbor.first] = alt;
-                    previous[neighbor.first] = current;
-                }
+        // Move elements smaller than pivot to the left side
+        for (int j = low; j < high; j++) {
+            if (items[j].weight <= pivot) {
+                i++;
+                std::swap(items[i], items[j]);
             }
         }
-
-        // Reconstruct path
-        std::vector<char> path;
-        char current = 'E';  // End point
-        while (previous.find(current) != previous.end()) {
-            path.insert(path.begin(), current);
-            current = previous[current];
-        }
-        path.insert(path.begin(), start);
-        
-        return path;
+        std::swap(items[i + 1], items[high]);
+        return i + 1;
     }
 };
 
 int main() {
-    RouteOptimizer router;
-    std::vector<char> shortestPath = router.findShortestPath('A');
-    
-    std::cout << "Shortest collection route from A to E: ";
-    for (char point : shortestPath) {
-        std::cout << point << " ";
+    // Example waste items
+    std::vector<WasteItem> wasteItems = {
+        {50, "plastic"},
+        {20, "paper"},
+        {30, "metal"},
+        {10, "organic"},
+        {40, "plastic"}
+    };
+
+    std::cout << "Original waste items:\n";
+    for (const auto& item : wasteItems) {
+        std::cout << "Type: " << item.type << ", Weight: " << item.weight << "kg\n";
     }
-    std::cout << "\n";
+
+    // Sort waste items by weight
+    WasteSegregator::quickSort(wasteItems, 0, wasteItems.size() - 1);
+
+    std::cout << "\nSorted waste items by weight:\n";
+    for (const auto& item : wasteItems) {
+        std::cout << "Type: " << item.type << ", Weight: " << item.weight << "kg\n";
+    }
 
     return 0;
 }
