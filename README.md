@@ -8,7 +8,5 @@ Project :-
 
 <hr>
 
-## Course learning reflections 
 ## [Course Learning Reflections](Reflections.md)
-
 ## [Bussiness Use Cases](business.md)
