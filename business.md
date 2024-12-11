@@ -8,16 +8,20 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: #f4f4f4;
+            margin: 0;
+            height: 100vh;
         }
         .container {
             background-color: white;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             padding: 30px;
+            max-width: 800px;
+            width: 100%;
         }
         .initiative {
             margin-bottom: 30px;
