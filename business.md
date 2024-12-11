@@ -78,7 +78,7 @@
             <li>Not Well-Suited for Real-Time Dynamic Updates: Challenges with handling sudden roadblocks or traffic changes.</li>
         </ul>
 
-        <a href="https://github.com/user/repo/blob/branch/Dijkstra%27s.md">Code for Dijkstra's Algorithm</a>
+        <a href="[https://github.com/user/repo/blob/branch/Dijkstra%27s.md](https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Dijkstra's.md?plain=1)">Code for Dijkstra's Algorithm</a>
         <p><strong>Source:</strong> <a href="https://www.upperinc.com/glossary/route-optimization/dijkstras-algorithm/#:~:text=Dijkstra%27s%20algorithm%20is%20widely%20used,between%20devices%20in%20a%20network">Dijkstra's Algorithm - Route Optimization</a></p>
 
         <h3>Waste Segregation: QuickSort</h3>
@@ -100,7 +100,7 @@
             <li>Preprocessing Needed: May require manual intervention to define sorting criteria for waste types.</li>
         </ul>
 
-        <a href="https://github.com/user/repo/blob/branch/Quicksort.md">Code for QuickSort</a>
+        <a href="[[https://github.com/user/repo/blob/branch/Quicksort.md](https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Dijkstra's.md?plain=1)](https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quicksort.md?plain=1)">Code for QuickSort</a>
 
         <p><strong>Source:</strong> <a href="https://builtin.com/articles/quicksort#:~:text=Let%27s%20cover%20a%20few%20key,situations%20when%20space%20is%20limited">QuickSort - Efficient Waste Segregation</a></p>
 
