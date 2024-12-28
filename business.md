@@ -100,10 +100,12 @@
             <li>Not Stable: The algorithm does not maintain the order of identical items, which might be critical in specific segregation workflows.</li>
             <li>Preprocessing Needed: May require manual intervention to define sorting criteria for waste types.</li>
         </ul>
+       <h1>
+        <a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quicksort.md" target="_blank">Code for Quicksort Algorithm</a></h1>
+        
+        <h1><a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quick2.jpeg" target="_blank">Efficiency Analysis for Quicksort Algorithm</a></h1>
 
-        <a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quicksort.md" target="_blank">Code for Quicksort Algorithm</a>
-        <a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quick1.jpeg" target="_blank">Efficiency Analysis for Quicksort Algorithm</a>
-        <a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quick2.jpeg" target="_blank">Efficiency Analysis for Quicksort Algorithm</a>
+        <h1><a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quick1.jpeg" target="_blank">Efficiency Analysis for Quicksort Algorithm</a></h1>
 
 
         <p><strong>Source:</strong> <a href="https://builtin.com/articles/quicksort#:~:text=Let%27s%20cover%20a%20few%20key,situations%20when%20space%20is%20limited">QuickSort - Efficient Waste Segregation</a></p>
