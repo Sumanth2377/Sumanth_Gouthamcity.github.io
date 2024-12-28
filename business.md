@@ -104,6 +104,9 @@
         <a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/Quicksort.md" target="_blank">Code for Quicksort Algorithm</a></h1>
         
         <h1><a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/image.jpg" target="_blank">Efficiency Analysis for Quicksort Algorithm</a></h1>
+        
+         <img src="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/image.jpg" alt="Your image description" width="500">
+
 
 
 
