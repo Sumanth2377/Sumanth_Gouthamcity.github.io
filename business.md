@@ -104,9 +104,6 @@
         
         <a href="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/image.jpg" target="_blank">Efficiency Analysis for Quicksort Algorithm</a>
         
-         <img src="https://github.com/Sumanth2377/Sumanth_Gouthamcity.github.io/blob/main/image.jpg" alt="Your image description" width="500">
-
-
 
 
         <p><strong>Source:</strong> <a href="https://builtin.com/articles/quicksort#:~:text=Let%27s%20cover%20a%20few%20key,situations%20when%20space%20is%20limited">QuickSort - Efficient Waste Segregation</a></p>
