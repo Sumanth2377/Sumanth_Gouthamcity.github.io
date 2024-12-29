@@ -133,7 +133,7 @@ Advantages of using Dynamic Programming is it guarantees optimal solution while 
 [Code for Dynamic Programming ](DynamicProgrammingCitymap.cpp)
 
 
-<h3>Linked Lists</h3>h3>
+<h3>Linked Lists</h3>
 
 Using linear data structure for each element (node) points to the next. It’s useful for dynamic datasets and Store incoming waste items and process them sequentially.
 
@@ -153,6 +153,8 @@ Benefits are it is Easy to maintain and update,Efficient data organization,Quick
 
 Additional Features are Hazardous waste tracking,Collection time monitoring and Location-based filtering
 
+A linked list can be used to store incoming waste items dynamically with its each node can represent a batch of waste, allowing for efficient insertion and deletion as waste is collected or processed.
+
 [Code for Arrays & Lists](Arrays&ListsCitymap.cpp)
 
 <h3>Binary Search Tree:</h3>
@@ -161,8 +163,21 @@ Binary Search Tree (BST) is used because it allows fast searching, easy sorting,
 
 [Code for Binary Search Tree](BinarySearchTreeCitymap.cpp)
 
+<h3>Hash Table</h3>
 
+If i  missed collecting waste from a specific area, i can use a Hash Table for tracking waste collection statuses which is beneficial because it provides fast access to information, allows for easy updates, can dynamically adjust to the number of areas, and does not require sorting. This makes it an efficient and practical choice for managing the status of waste collection in a city.
 
+[Code for Hash Table](HashTableCitymap.cpp)
+
+<h3>Fenwick Tree</h3>
+
+When new materials are added to the inventory, the Fenwick Tree can quickly update the cumulative totals without recalculating everything from scratch. Similarly, when materials are processed and removed, it adjusts the inventory levels efficiently.
+
+The main advantage of using a Fenwick Tree lies in its ability to perform both updates and queries in 𝑂(log⁡𝑛) time, making it highly suitable for real-time tracking of inventory changes.This efficiency ensures that large-scale operations, such as managing inventories across multiple categories or locations, can be handled seamlessly.
+
+A Fenwick Tree is a choice for managing and monitoring recycled material inventories, providing both speed and flexibility in maintaining accurate cumulative data.
+
+[Code for Fenwick Tree](FenwickTree.Citymapcpp)
 
 
 
