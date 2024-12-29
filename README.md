@@ -79,7 +79,9 @@
          </div>
      </body>
     </html>
-        ## [Course Learning Reflections](Reflections.md)
-        ## [Bussiness Use Cases](business.md)
-        ## [Business Case : City Management](CityManagement.md) 
-   
+     
+
+## [Course Learning Reflections](Reflections.md)
+## [Bussiness Use Cases](business.md)
+## [Business Case : City Management](CityManagement.md) 
+
