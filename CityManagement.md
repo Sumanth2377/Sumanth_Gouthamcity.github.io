@@ -179,6 +179,19 @@ A Fenwick Tree is a choice for managing and monitoring recycled material invento
 
 [Code for Fenwick Tree](FenwickTree.Citymapcpp)
 
+<h3>Union-Find</h3>
+
+The Union-Find data structure is used in waste management to group collection zones, improve resource allocation, track connections, and handle emergencies. It helps manage which zones are connected, making the system more efficient and improving service delivery. This makes Union-Find getting used for optimizing waste management operations.
+
+[Code for Union-Find](UnionFindCitymap.cpp)
+
+
+
+
+
+
+
+
 
 
 
