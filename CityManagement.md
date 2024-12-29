@@ -133,6 +133,46 @@ Advantages of using Dynamic Programming is it guarantees optimal solution while 
 [Code for Dynamic Programming ](DynamicProgrammingCitymap.cpp)
 
 
+<h3>Linked Lists</h3>h3>
+
+Using linear data structure for each element (node) points to the next. It’s useful for dynamic datasets and Store incoming waste items and process them sequentially.
+
+Example: A linked list where each node represents a waste batch.
+
+Its Advantages are :- efficient insertion/deletion compared to arrays and Flexible resizing (e.g., when the number of waste items changes).
+
+Linklist is Easy to traverse from start to end,Easy to add new locations and if there are lot of waste from one area it can modify route on the go storing necessary data.
+
+[Code for Linked Lists](LinkedLists.cpp)
+
+<h3>Arrays & Lists:</h3>
+
+Adds new waste data,Sort by weight,Calculate totals by type,Filtering by location and Display formatted data
+
+Benefits are it is Easy to maintain and update,Efficient data organization,Quick access to information,Flexible for adding new features
+
+Additional Features are Hazardous waste tracking,Collection time monitoring and Location-based filtering
+
+[Code for Arrays & Lists](Arrays&ListsCitymap.cpp)
+
+<h3>Binary Search Tree:</h3>
+
+Binary Search Tree (BST) is used because it allows fast searching, easy sorting, and efficient insertion of waste classification rules. The data is stored in a sorted way, making it quick to find, add, or display rules.
+
+[Code for Binary Search Tree](BinarySearchTreeCitymap.cpp)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
