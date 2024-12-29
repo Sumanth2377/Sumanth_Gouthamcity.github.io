@@ -1,6 +1,6 @@
 <h1>Business Case : City Management</h1>
 
-Sub-task: Waste Segregation and Collection
+<h3>Sub-task: Waste Segregation and Collection
 SDG Goal: 11
 Target: 11.6
 Indicator: 11.6.1
@@ -95,7 +95,7 @@ Heap sort is better for waste processing systems where consistent timing is cruc
 
 Heap sort is important when dealing with large quantity of waste data(heap uses O(1) extra space whereas quickSort uses O(log n) spaces)
 
-[Heap Sort for waste Processing System](HeapSortCitymap.cpp) 
+[Heap Sort for waste Processing System](HeapSortCitymap.cpp) </h3>
 
 
 
