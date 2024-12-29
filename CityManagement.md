@@ -222,7 +222,19 @@ BFS helps in exploring all possible paths level by level. This is useful when yo
 [Code For BFS](BfsCitymap.cpp)
 
 
+Dijkstra’s Algorithm is used at the start to find the most efficient route for collecting and delivering waste.
 
+BFS and Union-Find help explore and optimize connections between collection zones and routes.
+
+Linked Lists, Arrays & Lists, BST, QuickSort, Heap Sort, and Merge Sort are used to store, sort, and categorize waste data.
+
+Dynamic Programming and Fenwick Tree help optimize and track the cost and inventory of waste management.
+
+Segment Tree, Skip List, and Trie are used for analyzing and managing waste data dynamically.
+
+Hash Table is used to track the status of waste collection operations across zones.
+
+Each algorithm and data structure played a important role in making the waste management system more efficient, ensuring optimal performance and effective resource usage throughout the process.
 
 
 
