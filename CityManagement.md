@@ -1,6 +1,6 @@
 <h1>Business Case : City Management</h1>
 
-Sub-task: Waste Segregation and Collection
+<h2>Sub-task: Waste Segregation and Collection</h2>
 
 SDG Goal: 11
 
