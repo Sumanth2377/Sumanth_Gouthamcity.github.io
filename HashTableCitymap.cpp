@@ -6,18 +6,18 @@ using namespace std;
 
 class WasteTracker {
 private:
-    unordered_map<string, string> statusMap; // Store area statuses
+    unordered_map<string, string> statusMap; 
 
 public:
     void setStatus(const string& area, const string& status) {
-        statusMap[area] = status; // Update the status
+        statusMap[area] = status; 
     }
 
     string getStatus(const string& area) {
         if (statusMap.find(area) != statusMap.end()) {
-            return statusMap[area]; // Return status if area is found
+            return statusMap[area];
         } else {
-            return "Area not found"; // If area is not found
+            return "Area not found"; 
         }
     }
 
@@ -30,7 +30,7 @@ public:
 };
 
 int main() {
-    WasteTracker tracker; // Create tracker object for waste collection
+    WasteTracker tracker; 
 
     tracker.setStatus("Residential Area", "Collected");
     tracker.setStatus("Market Area", "Missed");
