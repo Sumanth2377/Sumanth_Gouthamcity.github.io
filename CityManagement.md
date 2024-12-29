@@ -193,10 +193,23 @@ Used for efficiently querying the sum of waste data and updating values.
 
 [code for Segment tree](SegmenttreeCitymap.cpp)
 
+<h3>Skip List</h3>
 
+A waste management system can use a skip list to maintain a sorted list of collection routes based on efficiency or distance.When a new route is added or an existing one is modified, the skip list allows for quick updates and ensures that the system can still retrieve the best routes efficiently.waste management systems can enhance their data handling capabilities, leading to improved efficiency in operations and better service delivery. 
 
+[Code for Skip List](SkipListCitymap.cpp)
 
+<h3>Trie</h3> 
 
+In a waste management application, users might want to quickly find waste types or categories (e.g., "plastic", "paper", "organic") as they type and Trie can be used to store waste categories and  subcategories (e.g., "recyclable/plastic", "recyclable/paper", "hazardous/chemical").
+
+In mobile or web applications for waste management, users may input waste types or disposal methods. A Trie can help suggest valid entries as users type.
+
+In educational applications focused on waste management, a Trie can be used to create interactive quizzes or games where users guess waste types based on prefixes.
+
+For databases that store information about waste processing facilities, a Trie can be used to index facility names or types, allowing for quick searches.
+
+[Code For Trie](TrieCitymap.cpp)
 
 
 
