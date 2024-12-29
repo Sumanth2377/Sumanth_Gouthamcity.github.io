@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -77,9 +76,9 @@
         <p>Design Analysis of Algorithms focuses on studying algorithms through natural and historical perspectives, emphasizing solutions to complex problems. The course covers data structures like <span class="keyword">n-ary trees</span>, <span class="keyword">AVL trees</span>, <span class="keyword">tries</span>, <span class="keyword">graphs</span>, and <span class="keyword">skip lists</span>, alongside algorithms such as sorting, backtracking, string matching, and shortest path algorithms.</p>
         <p>Assignments link theory to real-world applications, exploring data structure choices for tasks like submission throttling with tries, building recommendation engines, and optimizing user-defined heap memory. By fostering intuition and a structured approach, the course equips engineers to design efficient algorithms and enhance existing ones for real-world impact.</p>
         <hr>
-        <h2><a href="Reflections.md">Course Learning Reflections</a></h2>
-        <h2><a href="business.md">Business Use Cases</a></h2>
-        <h2><a href="CityManagement.md">Business Case: City Management</a></h2>
+       <h2> ## [Course Learning Reflections](Reflections.md)</h2>
+        <h2> ## [Bussiness Use Cases](business.md)</h2>
+        <h2> ## [Business Case : City Management](CityManagement.md) </h2>
     </div>
 </body>
 </html>
