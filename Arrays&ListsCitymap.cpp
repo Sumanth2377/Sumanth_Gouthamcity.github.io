@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <algorithm> // For sort
+#include <algorithm> 
 
 struct WasteData {
     std::string location;
