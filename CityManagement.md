@@ -88,9 +88,9 @@ We take first waste as pivot and from left to right we look for large waste(huge
 
 The worst case of Quick sort is if the array is sorted in ascending order or descending order.
 
-The best case is when partition happens in mid. 
+The best case is when partition happens in mid O(n log n). 
 
-Quicksort worst case is similar to bubble sort/selection sort.
+Quicksort worst case is similar to bubble sort/selection sort O(n²).
 
 [Quick sort code for Segregating waste](Quicksort.cpp)
 
@@ -102,6 +102,41 @@ Heap sort is better for waste processing systems where consistent timing is cruc
 Heap sort is important when dealing with large quantity of waste data(heap uses O(1) extra space whereas quickSort uses O(log n) spaces)
 
 [Heap Sort for waste Processing System](HeapSortCitymap.cpp) 
+
+
+<h3>Merge Sort</h3>h3
+To Need stable sorting,Working with pre-sorted waste data,Require guaranteed time complexity,Can afford extra memory usage and Need reliable processing times we go for merge sort which gives  always O(n log n) in all cases.
+
+[Merge sort code](MergeCitymap.cpp)
+
+<h3>Dynamic Programming</h3>
+Dynamic Programming Approach
+
+Uses bitmask to represent visited locations,dp[mask][last] represents minimum cost to visit locations in mask ending at 'last'
+
+Time Complexity: O(n²2ⁿ)
+
+Space Complexity: O(n2ⁿ)
+
+where n = number of locations
+
+2ⁿ possible combinations of visited locations
+
+n possible last locations for each combination
+
+Stores value for each state in DP table
+
+Stores path information for reconstruction
+
+Advantages of using Dynamic Programming is it guarantees optimal solution while handeling complex constraints and Can be modified for different requirements and it is Efficient for small to medium-sized graphs and in our city design means Shortest path to dump yard contains shortest paths to intermediate points by using bit masking to track visited locations,Memoizes intermediate results,Reconstructs the optimal path and Handles both direct and indirect connections
+
+[Code for Dynamic Programming ](DynamicProgrammingCitymap.cpp)
+
+
+
+
+
+
 
 
 
