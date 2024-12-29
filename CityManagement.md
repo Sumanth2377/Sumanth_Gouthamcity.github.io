@@ -1,6 +1,6 @@
 <h1>Business Case : City Management</h1>
 
-<h3>Sub-task: Waste Segregation and Collection
+Sub-task: Waste Segregation and Collection
 SDG Goal: 11
 Target: 11.6
 Indicator: 11.6.1
@@ -15,7 +15,7 @@ The waste management department sees the collection and segregation of waste fro
 
 
 The above time is measured based on the city's layout and the total amount of dry and wet waste collected. Assuming the distance and time required to travel between Dump Yard 1 and Dump Yard 2 within the city.
-Time Matrix : 
+<h3>Time Matrix : </h3>
 
      [0,    20,  ∞,   ∞,   ∞,   ∞,   ∞,   ∞,   ∞], DY(S)
      [20,   0,   10,  ∞,   25,   ∞,   ∞,   ∞,   ∞], Railway Station
@@ -54,7 +54,7 @@ Total Time: 203 minutes Breakdown:
 - Agriculture College to Industry Area: 58 min 
 - Industry Area to Dump yard(E): 10 min
 
-Dijkstra's algorithm was chosen here because:
+<h3>Dijkstra's algorithm was chosen here because:</h3>
 We need shortest path based on time (weighted edges)
 All weights (times) are positive(If it was negative Bellman-Ford algorithm would have joined us)
 We have a specific start point (Dump Yard Start) and end point (Dump Yard End)
@@ -68,7 +68,7 @@ Most efficient algorithm for this case because it guarantees the shortest path w
 [Code for Dijkstra's Algorithm](Dijkstra'sCitymap.cpp)
 
 
-QuickSort:
+<h3>QuickSort:</h3>
 After collecting all the Waste now we have to Segregation them into dry,wet and based on their material and sizes.For the Fast Sorting we use Quicksort for its Efficiently sorting large quantities of waste into categories (e.g., plastics, metals, organics) with average-case time complexity O(n log n).
 
 If the waste is in 
@@ -88,14 +88,14 @@ Quicksort worst case is similar to bubble sort/selection sort.
 
 [Quick sort code for Segregating waste](Quicksort.cpp)
 
-Heap Sort:
+<h3>Heap Sort:</h3>
 For Reliability and consistency(we don’t want to waste sorting system to suddenly slow down because of a bad pivot choice or partially sorted waste items) we use Heap Sort
 
 Heap sort is better for waste processing systems where consistent timing is crucial(heap sort has O(n log n) for all cases where as Quick sort can go to O(n²) in worst case)
 
 Heap sort is important when dealing with large quantity of waste data(heap uses O(1) extra space whereas quickSort uses O(log n) spaces)
 
-[Heap Sort for waste Processing System](HeapSortCitymap.cpp) </h3>
+[Heap Sort for waste Processing System](HeapSortCitymap.cpp) 
 
 
 
