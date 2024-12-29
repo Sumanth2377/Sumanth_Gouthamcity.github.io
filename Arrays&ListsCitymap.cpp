@@ -1,53 +1,52 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <algorithm> 
+#include <algorithm>
 
-struct WasteData {
-    std::string location;
-    std::string type;
-    int weight;
-    bool isHazardous;
+struct Waste {
+    std::string loc, type;
+    int wgt;
+    bool haz;
 };
 
-class WasteManager {
+class Manager {
 private:
-    std::vector<WasteData> wasteInventory;
+    std::vector<Waste> inv;
 
 public:
-    void addWaste(const std::string& loc, const std::string& type, int weight, bool hazard) {
-        wasteInventory.push_back({loc, type, weight, hazard});
+    void addWaste(const std::string& loc, const std::string& type, int wgt, bool haz) {
+        inv.push_back({loc, type, wgt, haz});
     }
 
     void sortByWeight() {
-        std::sort(wasteInventory.begin(), wasteInventory.end(), [](const WasteData& a, const WasteData& b) {
-            return a.weight < b.weight;
+        std::sort(inv.begin(), inv.end(), [](const Waste& a, const Waste& b) {
+            return a.wgt < b.wgt;
         });
     }
 
-    void displayInventory() {
-        for (const auto& waste : wasteInventory) {
-            std::cout << "Location: " << waste.location
-                      << ", Type: " << waste.type
-                      << ", Weight: " << waste.weight << "kg"
-                      << ", Hazardous: " << (waste.isHazardous ? "Yes" : "No") << "\n";
+    void display() {
+        for (const auto& w : inv) {
+            std::cout << "Loc: " << w.loc
+                      << ", Type: " << w.type
+                      << ", Wgt: " << w.wgt << "kg"
+                      << ", Hazardous: " << (w.haz ? "Yes" : "No") << "\n";
         }
     }
 };
 
 int main() {
-    WasteManager manager;
+    Manager m;
 
-    manager.addWaste("Market", "organic", 100, false);
-    manager.addWaste("City", "plastic", 50, false);
-    manager.addWaste("Industry", "metal", 80, true);
+    m.addWaste("Market", "organic", 100, false);
+    m.addWaste("City", "plastic", 50, false);
+    m.addWaste("Industry", "metal", 80, true);
 
     std::cout << "Original Inventory:\n";
-    manager.displayInventory();
+    m.display();
 
-    manager.sortByWeight();
+    m.sortByWeight();
     std::cout << "\nSorted by Weight:\n";
-    manager.displayInventory();
+    m.display();
 
     return 0;
 }
