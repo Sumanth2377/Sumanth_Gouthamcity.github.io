@@ -104,7 +104,7 @@ Heap sort is important when dealing with large quantity of waste data(heap uses 
 [Heap Sort for waste Processing System](HeapSortCitymap.cpp) 
 
 
-<h3>Merge Sort</h3>h3
+<h3>Merge Sort</h3>
 To Need stable sorting,Working with pre-sorted waste data,Require guaranteed time complexity,Can afford extra memory usage and Need reliable processing times we go for merge sort which gives  always O(n log n) in all cases.
 
 [Merge sort code](MergeCitymap.cpp)
