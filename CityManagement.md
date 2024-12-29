@@ -195,7 +195,7 @@ Used for efficiently querying the sum of waste data and updating values.
 
 <h3>Skip List</h3>
 
-A waste management system can use a skip list to maintain a sorted list of collection routes based on efficiency or distance.When a new route is added or an existing one is modified, the skip list allows for quick updates and ensures that the system can still retrieve the best routes efficiently.waste management systems can enhance their data handling capabilities, leading to improved efficiency in operations and better service delivery. 
+A waste management system can use a skip list to maintain a sorted list of collection routes based on efficiency or distance.When a new route is added or an existing one is modified, the skip list allows for quick updates and ensures that the system can still retrieve the best routes efficiently.waste management systems can enhance their data handling capabilities, leading to improved efficiency in operations and better service delivery.(avg - O(log n))
 
 [Code for Skip List](SkipListCitymap.cpp)
 
@@ -207,7 +207,7 @@ In mobile or web applications for waste management, users may input waste types 
 
 In educational applications focused on waste management, a Trie can be used to create interactive quizzes or games where users guess waste types based on prefixes.
 
-For databases that store information about waste processing facilities, a Trie can be used to index facility names or types, allowing for quick searches.()
+For databases that store information about waste processing facilities, a Trie can be used to index facility names or types, allowing for quick searches.(O(m))
 
 [Code For Trie](TrieCitymap.cpp)
 
@@ -217,7 +217,7 @@ BFS is ideal for finding the shortest path in an unweighted graph, where all edg
 
 If we want to find the shortest route from one waste collection point to another in a city, BFS will explore all paths and guarantee finding the shortest one, ensuring your resources (such as time, fuel) are used efficiently.
 
-BFS helps in exploring all possible paths level by level. This is useful when you're trying to determine the optimal route for a collection vehicle to take, ensuring that waste collection is efficient and minimizes travel time.
+BFS helps in exploring all possible paths level by level. This is useful when you're trying to determine the optimal route for a collection vehicle to take, ensuring that waste collection is efficient and minimizes travel time.(O(V + E))
 
 [Code For BFS](BfsCitymap.cpp)
 
