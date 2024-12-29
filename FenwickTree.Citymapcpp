@@ -1,55 +1,56 @@
 #include <iostream>
 #include <vector>
 
+using namespace std;
+
 class FenwickTree {
 private:
-    std::vector<int> tree; /
-    int size; 
+    vector<int> t; // Tree array
+    int sz; // Size
 
 public:
-   
-    FenwickTree(int n) : size(n) {
-        tree.resize(n + 1, 0);
+    FenwickTree(int n) : sz(n) {
+        t.resize(n + 1, 0); // Initialize tree
     }
 
-    void update(int index, int value) {
-        while (index <= size) {
-            tree[index] += value; 
-            index += index & -index; 
+    void update(int i, int v) {
+        while (i <= sz) {
+            t[i] += v; // Add value
+            i += i & -i; // Move to next index
         }
     }
 
-    int sum(int index) {
+    int sum(int i) {
         int total = 0;
-        while (index > 0) {
-            total += tree[index]; 
-            index -= index & -index; 
+        while (i > 0) {
+            total += t[i]; // Add value at index
+            i -= i & -i; // Move to parent index
         }
         return total;
     }
 };
 
 int main() {
-    std::vector<int> weights = {50, 20, 30, 10, 40}; 
-    int n = weights.size();
+    vector<int> w = {50, 20, 30, 10, 40}; // Weights
+    int n = w.size(); // Size of weights
 
-    FenwickTree fenwickTree(n);
+    FenwickTree ft(n); // Create tree
 
     for (int i = 0; i < n; i++) {
-        fenwickTree.update(i + 1, weights[i]); 
+        ft.update(i + 1, w[i]); // Update tree
     }
 
-    std::cout << "Total weight up to each index:\n";
+    cout << "Total weight up to each index:\n";
     for (int i = 1; i <= n; i++) {
-        std::cout << "Up to index " << i << ": " << fenwickTree.sum(i) << "kg\n";
+        cout << "Up to index " << i << ": " << ft.sum(i) << "kg\n";
     }
 
-    std::cout << "\nUpdating second item by adding 10kg.\n";
-    fenwickTree.update(2, 10); 
+    cout << "\nUpdating second item by adding 10kg.\n";
+    ft.update(2, 10); // Update second item
 
-    std::cout << "Updated total weight:\n";
+    cout << "Updated total weight:\n";
     for (int i = 1; i <= n; i++) {
-        std::cout << "Up to index " << i << ": " << fenwickTree.sum(i) << "kg\n";
+        cout << "Up to index " << i << ": " << ft.sum(i) << "kg\n";
     }
 
     return 0;
