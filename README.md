@@ -79,7 +79,7 @@
          </div>
      </body>
     </html>
-       <h2> ## [Course Learning Reflections](Reflections.md)</h2>
-        <h2> ## [Bussiness Use Cases](business.md)</h2>
-        <h2> ## [Business Case : City Management](CityManagement.md) </h2>
+        ## [Course Learning Reflections](Reflections.md)
+        ## [Bussiness Use Cases](business.md)
+        ## [Business Case : City Management](CityManagement.md) 
    
