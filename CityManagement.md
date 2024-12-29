@@ -72,8 +72,11 @@ Most efficient algorithm for this case because it guarantees the shortest path w
 After collecting all the Waste now we have to Segregation them into dry,wet and based on their material and sizes.For the Fast Sorting we use Quicksort for its Efficiently sorting large quantities of waste into categories (e.g., plastics, metals, organics) with average-case time complexity O(n log n).
 
 If the waste is in 
+
 1.small quantity 
+
 2.When data is randomly distributed
+
 3.When additional memory usage isn't a concern
 
 We go for quick sort 
