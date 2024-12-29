@@ -65,8 +65,7 @@ Based on the principle of Edge relaxation.
 Single source shortest path algorithm.  
 Falls under the category of greedy technique.
 Most efficient algorithm for this case because it guarantees the shortest path when all weights are positive.
-
-# [Code for Dijkstra's Algorithm](Dijkstra'sCitymap.cpp)
+[Code for Dijkstra's Algorithm](Dijkstra'sCitymap.cpp)
 
 
 QuickSort:
