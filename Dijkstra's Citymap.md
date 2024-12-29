@@ -23,9 +23,8 @@ int minDistance(vector<int>& dist, vector<bool>& sptSet) {
 void printPath(vector<int>& parent, int j) {
     if (parent[j] == -1)
         return;
-        
-    printPath(parent, parent[j]);
-    cout << " -> " << j;
+     printPath(parent, parent[j]);
+     cout << " -> " << j;
 }
 
 // for the solution
@@ -61,7 +60,6 @@ void dijkstra(vector<vector<int>>& graph, int src) {
 }
 
 int main() {
-    // Create the adjacency matrix for the graph
     vector<vector<int>> graph = {
         //DY(S) RS   Res  EC1  MA   EC2  AC   IA   DY(E)
         {0,    20,  0,   0,   0,   0,   0,   0,   0},    // DY(S)
