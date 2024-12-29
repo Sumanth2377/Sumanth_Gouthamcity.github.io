@@ -1,15 +1,17 @@
 #include <iostream>
-#include <queue>
 #include <vector>
+#include <queue>
 using namespace std;
 
+const int V = 9;
+
 void bfs(vector<vector<int>>& adj, int start, int target) {
-    vector<bool> vis(adj.size(), false);
-    vector<int> dist(adj.size(), -1);
+    vector<bool> v(V, false);  
+    vector<int> dist(V, -1), parent(V, -1);
     queue<int> q;
 
     q.push(start);
-    vis[start] = true;
+    v[start] = true;
     dist[start] = 0;
 
     while (!q.empty()) {
@@ -17,31 +19,32 @@ void bfs(vector<vector<int>>& adj, int start, int target) {
         q.pop();
 
         if (node == target) {
-            cout << "Dist: " << dist[node] << endl;
+            cout << "Distance: " << dist[node] << "\nPath: ";
+            for (int vNode = target; vNode != -1; vNode = parent[vNode])
+                cout << vNode << " ";
+            cout << endl;
             return;
         }
 
-        for (int nbr : adj[node]) {
-            if (!vis[nbr]) {
-                vis[nbr] = true;
-                dist[nbr] = dist[node] + 1;
-                q.push(nbr);
+        for (int n : adj[node]) {  
+            if (!v[n]) {
+                v[n] = true;
+                dist[n] = dist[node] + 1;
+                parent[n] = node;
+                q.push(n);
             }
         }
     }
 
-    cout << "Not reachable!" << endl;
+    cout << "Not reachable" << endl;
 }
 
 int main() {
-    vector<vector<int>> adj(5);
-    adj[0] = {1, 2};
-    adj[1] = {0, 3};
-    adj[2] = {0, 4};
-    adj[3] = {1};
-    adj[4] = {2};
+    vector<vector<int>> adj(V);
+    adj[0] = {1, 2}; adj[1] = {0, 3}; adj[2] = {0, 4};
+    adj[3] = {1}; adj[4] = {2};
+    adj[5] = {6}; adj[6] = {7}; adj[7] = {8}; adj[8] = {7};
 
-    int start = 0, target = 3;
-    bfs(adj, start, target);
+    bfs(adj, 0, 3);
     return 0;
 }
