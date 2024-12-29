@@ -66,7 +66,7 @@ Graph is relatively small as per taken (9 locations)
 Based on the principle of Edge relaxation. 
 Single source shortest path algorithm.  
 Falls under the category of greedy technique.
-Most efficient algorithm for this case because it guarantees the shortest path when all weights are positive.
+Most efficient algorithm for this case because it guarantees the shortest path when all weights are positive.(O (|E| log|V|))
 
 [Code for Dijkstra's Algorithm](Dijkstra'sCitymap.cpp)
 
@@ -141,7 +141,7 @@ Example: A linked list where each node represents a waste batch.
 
 Its Advantages are :- efficient insertion/deletion compared to arrays and Flexible resizing (e.g., when the number of waste items changes).
 
-Linklist is Easy to traverse from start to end,Easy to add new locations and if there are lot of waste from one area it can modify route on the go storing necessary data.
+Linklist is Easy to traverse from start to end,Easy to add new locations and if there are lot of waste from one area it can modify route on the go storing necessary data.(O(n) and O(1) for space Complexity)
 
 [Code for Linked Lists](LinkedLists.cpp)
 
@@ -159,13 +159,13 @@ A linked list can be used to store incoming waste items dynamically with its eac
 
 <h3>Binary Search Tree:</h3>
 
-Binary Search Tree (BST) is used because it allows fast searching, easy sorting, and efficient insertion of waste classification rules. The data is stored in a sorted way, making it quick to find, add, or display rules.
+Binary Search Tree (BST) is used because it allows fast searching, easy sorting, and efficient insertion of waste classification rules. The data is stored in a sorted way, making it quick to find, add, or display rules.(O(log(n)))
 
 [Code for Binary Search Tree](BinarySearchTreeCitymap.cpp)
 
 <h3>Hash Table</h3>
 
-If i  missed collecting waste from a specific area, i can use a Hash Table for tracking waste collection statuses which is beneficial because it provides fast access to information, allows for easy updates, can dynamically adjust to the number of areas, and does not require sorting. This makes it an efficient and practical choice for managing the status of waste collection in a city.
+If i  missed collecting waste from a specific area, i can use a Hash Table for tracking waste collection statuses which is beneficial because it provides fast access to information, allows for easy updates, can dynamically adjust to the number of areas, and does not require sorting. This makes it an efficient and practical choice for managing the status of waste collection in a city.(O(1))
 
 [Code for Hash Table](HashTableCitymap.cpp)
 
@@ -175,15 +175,27 @@ When new materials are added to the inventory, the Fenwick Tree can quickly upda
 
 The main advantage of using a Fenwick Tree lies in its ability to perform both updates and queries in 𝑂(log⁡𝑛) time, making it highly suitable for real-time tracking of inventory changes.This efficiency ensures that large-scale operations, such as managing inventories across multiple categories or locations, can be handled seamlessly.
 
-A Fenwick Tree is a choice for managing and monitoring recycled material inventories, providing both speed and flexibility in maintaining accurate cumulative data.
+A Fenwick Tree is a choice for managing and monitoring recycled material inventories, providing both speed and flexibility in maintaining accurate cumulative data.(O(n log n))
 
 [Code for Fenwick Tree](FenwickTree.Citymapcpp)
 
 <h3>Union-Find</h3>
 
-The Union-Find data structure is used in waste management to group collection zones, improve resource allocation, track connections, and handle emergencies. It helps manage which zones are connected, making the system more efficient and improving service delivery. This makes Union-Find getting used for optimizing waste management operations.
+The Union-Find data structure is used in waste management to group collection zones, improve resource allocation, track connections, and handle emergencies. It helps manage which zones are connected, making the system more efficient and improving service delivery. This makes Union-Find getting used for optimizing waste management operations.(O(ElogV))
 
 [Code for Union-Find](UnionFindCitymap.cpp)
+
+<h3>Segment tree</h3>
+
+Segment trees are particularly useful in scenarios where there is a need for efficient range queries and dynamic updates. In waste management, they can help authorities analyze waste generation trends, monitor performance metrics, and make data-driven decisions to improve operational efficiency. By using segment trees, waste management systems can become more responsive to changing conditions and better serve their communities.(O(log(n)))
+
+Used for efficiently querying the sum of waste data and updating values.
+
+[code for Segment tree](SegmenttreeCitymap.cpp)
+
+
+
+
 
 
 
