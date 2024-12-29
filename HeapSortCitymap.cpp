@@ -2,65 +2,56 @@
 #include <vector>
 #include <string>
 
-struct WasteItem {
-    int weight;
-    std::string type;
+struct Item {
+    int w;  // weight
+    std::string t;  // type
 };
 
-class WasteSegregator {
+class Segregator {
 public:
-    static void heapSort(std::vector<WasteItem>& items) {
-        int n = items.size();
+    static void heapSort(std::vector<Item>& v) {
+        int n = v.size();
         for (int i = n / 2 - 1; i >= 0; i--) {
-            heapify(items, n, i);
+            heapify(v, n, i);
         }
         for (int i = n - 1; i > 0; i--) {
-            // Move current root (maximum) to end
-            std::swap(items[0], items[i]);
-            // Call heapify on reduced heap
-            heapify(items, i, 0);
+            std::swap(v[0], v[i]);
+            heapify(v, i, 0);
         }
     }
 
 private:
-    static void heapify(std::vector<WasteItem>& items, int n, int i) {
-        int largest = i;        // Initialize largest as root
-        int left = 2 * i + 1;   // Left child
-        int right = 2 * i + 2;  // Right child
-        if (left < n && items[left].weight > items[largest].weight) {
-            largest = left;
-        }
-        if (right < n && items[right].weight > items[largest].weight) {
-            largest = right;
-        }
+    static void heapify(std::vector<Item>& v, int n, int i) {
+        int l = 2 * i + 1, r = 2 * i + 2, largest = i;
+        if (l < n && v[l].w > v[largest].w) largest = l;
+        if (r < n && v[r].w > v[largest].w) largest = r;
         if (largest != i) {
-            std::swap(items[i], items[largest]);
-            // Recursively heapify the affected sub-tree
-            heapify(items, n, largest);
+            std::swap(v[i], v[largest]);
+            heapify(v, n, largest);
         }
     }
 };
 
 int main() {
-    // Example waste items
-    std::vector<WasteItem> wasteItems = {
+    std::vector<Item> items = {
         {50, "plastic"},
         {20, "paper"},
         {30, "metal"},
         {10, "organic"},
         {40, "plastic"}
     };
-    std::cout << "Original waste items:\n";
-    for (const auto& item : wasteItems) {
-        std::cout << "Type: " << item.type << ", Weight: " << item.weight << "kg\n";
+
+    std::cout << "Original:\n";
+    for (const auto& i : items) {
+        std::cout << "Type: " << i.t << ", Weight: " << i.w << "kg\n";
     }
-    // Sorting all the waste items by weight using heap sort
-    if (!wasteItems.empty()) {
-        WasteSegregator::heapSort(wasteItems);
+
+    if (!items.empty()) Segregator::heapSort(items);
+
+    std::cout << "\nSorted:\n";
+    for (const auto& i : items) {
+        std::cout << "Type: " << i.t << ", Weight: " << i.w << "kg\n";
     }
-    std::cout << "\nSorted waste items by weight:\n";
-    for (const auto& item : wasteItems) {
-        std::cout << "Type: " << item.type << ", Weight: " << item.weight << "kg\n";
-    }
+
     return 0;
 }
