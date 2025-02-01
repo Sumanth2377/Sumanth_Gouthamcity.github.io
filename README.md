@@ -73,7 +73,7 @@
 <body>
     <div class="content">
         <h1>Design and Analysis of Algorithms</h1>
-        <p>Design Analysis of Algorithms focuses on studying algorithms through natural and historical perspectives, emphasizing solutions to complex problems. The course covers data structures like <span class="keyword">n-ary trees</span>, <span class="keyword">AVL trees</span>, <span class="keyword">tries</span>, <span class="keyword">graphs</span>, and <span class="keyword">skip lists</span>, alongside algorithms such as sorting, backtracking, string matching, and shortest path algorithms.</p>
+        <p>Design Analysis of Algorithms Focuses on studying algorithms through natural and historical perspectives, emphasizing solutions to complex problems. The course covers data structures like <span class="keyword">n-ary trees</span>, <span class="keyword">AVL trees</span>, <span class="keyword">tries</span>, <span class="keyword">graphs</span>, and <span class="keyword">skip lists</span>, alongside algorithms such as sorting, backtracking, string matching, and shortest path algorithms.</p>
         <p>Assignments link theory to real-world applications, exploring data structure choices for tasks like submission throttling with tries, building recommendation engines, and optimizing user-defined heap memory. By fostering intuition and a structured approach, the course equips engineers to design efficient algorithms and enhance existing ones for real-world impact.</p>
         <hr>
          </div>
