@@ -12,6 +12,7 @@ void mergeSort(std::vector<WasteItem>& items, int left, int right, std::vector<W
     int mid = left + (right - left) / 2;
     mergeSort(items, left, mid, temp);
     mergeSort(items, mid + 1, right, temp);
+
     
     int i = left, j = mid + 1, k = left;
     while (i <= mid && j <= right) temp[k++] = (items[i].weight <= items[j].weight) ? items[i++] : items[j++];
