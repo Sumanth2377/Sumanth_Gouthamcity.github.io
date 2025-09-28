@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -50,6 +51,7 @@
             color: #1a73e8;
             text-decoration: none;
             padding: 0.3em 0;
+            display: block;
             transition: color 0.2s;
         }
         a:hover {
@@ -73,15 +75,24 @@
 <body>
     <div class="content">
         <h1>Design and Analysis of Algorithms</h1>
-        <p>Design Analysis of Algorithms Focuses on studying algorithms through natural and historical perspectives, emphasizing solutions to complex problems. The course covers data structures like <span class="keyword">n-ary trees</span>, <span class="keyword">AVL trees</span>, <span class="keyword">tries</span>, <span class="keyword">graphs</span>, and <span class="keyword">skip lists</span>, alongside algorithms such as sorting, backtracking, string matching, and shortest path algorithms.</p>
-        <p>Assignments link theory to real-world applications, exploring data structure choices for tasks like submission throttling with tries, building recommendation engines, and optimizing user-defined heap memory. By fostering intuition and a structured approach, the course equips engineers to design efficient algorithms and enhance existing ones for real-world impact.</p>
+        <p>
+            Design and Analysis of Algorithms focuses on studying algorithms through natural and historical perspectives, 
+            emphasizing solutions to complex problems. The course covers data structures like 
+            <span class="keyword">n-ary trees</span>, <span class="keyword">AVL trees</span>, <span class="keyword">tries</span>, 
+            <span class="keyword">graphs</span>, and <span class="keyword">skip lists</span>, alongside algorithms such as 
+            sorting, backtracking, string matching, and shortest path algorithms.
+        </p>
+        <p>
+            Assignments link theory to real-world applications, exploring data structure choices for tasks like submission 
+            throttling with tries, building recommendation engines, and optimizing user-defined heap memory. By fostering 
+            intuition and a structured approach, the course equips engineers to design efficient algorithms and enhance 
+            existing ones for real-world impact.
+        </p>
         <hr>
-         </div>
-     </body>
-    </html>
-     
-
-## [Course Learning Reflections](Reflections.md)
-## [Bussiness Use Cases](business.md)
-## [Business Case : City Management](CityManagement.md) 
-
+        <h2>Related Pages</h2>
+        <a href="Reflections.md">Course Learning Reflections</a>
+        <a href="business.md">Business Use Cases</a>
+        <a href="CityManagement.md">Business Case: City Management</a>
+    </div>
+</body>
+</html>
